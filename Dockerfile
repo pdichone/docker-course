@@ -1,4 +1,5 @@
-FROM python:3.11
+FROM python:3.11-alpine 
+# Part 2 - optimize image size by getting a slim base-image or -alpine
 
 # set a directory for the app
 WORKDIR /usr/src/app
